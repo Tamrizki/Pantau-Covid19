@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhiteGray"
+    tools:context=".fragment.LocalFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativeL"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="Pantau Covid-19 \n#DiRumahAja"
+            android:textSize="12dp"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorOrange"
+            android:textStyle="bold"/>
+        <View
+            android:layout_below="@+id/text"
+            android:layout_width="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="3dp"
+            android:alpha="0.5"
+            android:background="@color/colorSemiBlack"/>
+        <View
+            android:layout_below="@+id/text"
+            android:layout_width="35dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="55dp"
+            android:alpha="0.5"
+            android:background="@color/colorOrange"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:alpha="0.5"
+        android:rotation="270"
+        android:background="@drawable/rad_45"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/relativeL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerview"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+</RelativeLayout>

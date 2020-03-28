@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pantau Corona</string>
+
+    <string name="title_info_covid">COVID-19</string>
+    <string name="title_info_covid_desc">Penyakit Coronavirus 2019 ( COVID-19 ) adalah penyakit menular yang disebabkan oleh sindrom pernapasan akut coronavirus 2 (SARS-CoV-2). Penyakit ini pertama kali diidentifikasi pada 2019 di Wuhan , ibukota provinsi Hubei China, dan sejak itu menyebar secara global, mengakibatkan pandemi virus coronavirus 2019-2020 . Gejala umum termasuk demam , batuk , dan sesak napas . Gejala lain mungkin termasuk nyeri otot , produksi dahak , diare , sakit tenggorokan , sakit perut, dan hilangnya bau atau rasa . Sementara sebagian besar kasus menyebabkan gejala ringan, beberapa kasus berkembang menjadi pneumonia dan kegagalan multi-organ . Pada 25 Maret 2020, tingkat kematian keseluruhan per jumlah kasus yang terdiagnosis adalah 4,5 persen; mulai dari 0,2 persen hingga 15 persen menurut kelompok umur dan masalah kesehatan lainnya . </string>
+</resources>
