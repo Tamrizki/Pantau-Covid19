@@ -2,7 +2,7 @@
 <h1>Pantau Covid-19</h1>
 <p>Aplikasi pemantau Covid-19 untuk wilayah indonesia dan manca-negara</p>
 <h3>Tentang Aplikasi</h3>
-<p><b>*</b>Bahasa Java</p>
+<p><b>*</b>Java</p>
 <p><b>*</b>Rest Client Retrofit</p>
 <p><b>*</b>API Covid-19 Indonesia <a href="https://api.kawalcorona.com/indonesia/provinsi/">Klik disini</a></p>
 <p><b>*</b>API Covid-19 Internasional <a href="https://covid19.mathdro.id/api/confirmed/">Klik disini</a></p>
